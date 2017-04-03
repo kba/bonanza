@@ -61,8 +61,8 @@ An object with a set of functions. Here you have a detailed table with all that 
 Property  | Default                                     | Usage
 --------- | ------------------------------------------- | ---------------------------------------
 item      | `(obj) => obj`                              | List items
-label     | `(obj) => obj                               | Input value when user selects some item
-noResults | `(search) => \`No results for "${search}"\` | Showed when query returns no results
+label     | `(obj) => obj`                              | Input value when user selects some item
+noResults | `(search) => "No results for " + search`    | Showed when query returns no resul
 loadMore  | `...`                                       | Showed at bottom when there is more data to show
 loading   | `Loading ...`                               | Showed at bottom when loading more data
 
